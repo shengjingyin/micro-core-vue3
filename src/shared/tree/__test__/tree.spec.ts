@@ -1,7 +1,7 @@
 import { findEleDepth } from "../index";
 import { treeData } from "./tree.data";
 describe("树形结构功能测试", () => {
-  it("寻找某个元素在树的第几层", () => {
+  it("寻找某个元素在树的第几层。", () => {
     const targetID = 0;
     const r = findEleDepth(treeData, targetID);
     expect(r).toBe(1);
